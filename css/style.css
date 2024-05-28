@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: rgba(75, 85, 99, 0.5);
+}
+
+a {
+   text-decoration: none;
+   color: rgba(75, 85, 99, 0.5); 
+}
+
+.title {
+    font-size: 72px;
+}
+
+.text-black {
+    color: #000000;
+}
+
+/*Selettori a discendenza
+header ul li:first-child a {
+    color:blue;
+}
+
+header ul li:nth-child(2) a {
+    color:blue;
+}
+
+header ul li:last-child a {
+    color:blue;
+}
+
+header ul li:first-letter {
+    color:red;
+}*/
+
+/*
+p:first-line {
+    color: green;
+}*/
+
+header ul li a:hover {
+    color: black;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
